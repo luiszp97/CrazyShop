@@ -31,7 +31,6 @@ export const ProductPage = () => {
       
       const data =  await getAppProducts( `/by-category&${query}` );
       data && setData( data )
-      console.log(data)
       dispatch( onLoadingProducts( false ) )
       
       

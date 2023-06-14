@@ -52,8 +52,8 @@ export const RegisterPage = () => {
                             defaultValue={ 'user' }
                             { ...register('rol') }
                         >
-                            <MenuItem value = 'seller' >Vendedor</MenuItem>
-                            <MenuItem value = 'user'>Comprador</MenuItem>
+                            <MenuItem value = 'seller' >Seller</MenuItem>
+                            <MenuItem value = 'user'>User</MenuItem>
 
                         </Select>
                         

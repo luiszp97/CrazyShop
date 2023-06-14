@@ -16,10 +16,11 @@ export const useShoppingCartApi = () => {
 
         try {
             const { data } = await shoppingCartApi.get('/');
+            console.log(data, 'data')
             return data.product
 
         } catch (error) {
-          
+         
         }
 
     };
@@ -31,7 +32,7 @@ export const useShoppingCartApi = () => {
           await shoppingCartApi.post( '/add', product );
           
         } catch (error) {
-          console.log(error)
+          
         }
     };
 
@@ -46,7 +47,7 @@ export const useShoppingCartApi = () => {
         
         } catch (error) {
             
-            console.log(error)
+            
         }
     };
 

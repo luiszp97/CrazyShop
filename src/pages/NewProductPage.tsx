@@ -91,7 +91,7 @@ export const NewProductPage = () => {
               />
               { errors.description && <Alert severity="error" sx={{mt: 1}}>{ errors.description?.message }</Alert> }
 
-              <InputLabel sx={{ mt:'10px' }}>Caegories</InputLabel>
+              <InputLabel sx={{ mt:'10px' }}>Categories</InputLabel>
 
                   <Select
                     fullWidth
