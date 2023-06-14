@@ -57,7 +57,7 @@ export const useShoppingCartApi = () => {
             .then( ()=>{
             Swal.fire({
                 icon:'success',
-                title: 'Seccess',
+                title: 'Success',
                 text: 'Product add in shopping cart',
                 timer: 1500,
                 showConfirmButton: false
